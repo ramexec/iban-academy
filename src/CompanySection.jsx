@@ -62,14 +62,7 @@ export default function CompanySection() {
         }}
       >
 
-        Being Iban is a modern technology academy focused on
-        delivering industry-ready skills in Web Development,
-        Game Development, Artificial Intelligence, Cyber
-        Security, and Cloud Computing.
-
-        Our mission is to empower students with practical
-        knowledge through immersive learning experiences and
-        real-world projects.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam nostrum nam dignissimos sint aut assumenda, ullam aliquid praesentium voluptate sed vitae deleniti porro. Porro ex quidem, rerum non error incidunt.
 
       </p>
 
