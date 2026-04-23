@@ -1,0 +1,25 @@
+/* Reset */
+
+html, body, #root {
+
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 100%;
+
+  overflow-x: hidden;
+
+  background: #000;
+
+  font-family: 'Segoe UI', sans-serif;
+
+}
+
+/* Canvas normal behavior */
+
+canvas {
+
+  display: block;
+
+}
