@@ -17,6 +17,8 @@ import Footer from "./Footer";
 import Popup from "./Popup";
 import { ScrollProvider } from "./ScrollStore";
 
+const base = import.meta.env.BASE_URL;
+
 export default function App() {
   const [activeCourse, setActiveCourse] = useState(null);
 
@@ -85,12 +87,12 @@ export default function App() {
 
 function Courses({ setActiveCourse }) {
   const courses = [
-    { title: "Web Development", image: "/posters/web.png" },
-    { title: "Game Development", image: "/posters/game.png" },
-    { title: "AI & ML", image: "/posters/ai.png" },
-    { title: "Cyber Security", image: "/posters/cyber.png" },
-    { title: "Cloud Computing", image: "/posters/cloud.png" },
-    { title: "Data Science", image: "/posters/data.png" }
+    { title: "Web Development", image: base + "/posters/web.png" },
+    { title: "Game Development", image: base + "/posters/game.png" },
+    { title: "AI & ML", image: base + "/posters/ai.png" },
+    { title: "Cyber Security", image: base + "/posters/cyber.png" },
+    { title: "Cloud Computing", image: base + "/posters/cloud.png" },
+    { title: "Data Science", image: base + "/posters/data.png" }
   ];
 
   return (
